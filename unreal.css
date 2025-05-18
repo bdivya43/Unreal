@@ -2,7 +2,7 @@
 margin:0px;
 padding:0px;
 color:white;
-font-family: vardana, sans-serif;
+font-family:vardana, sans-serif;
 }
 
 img{
@@ -69,7 +69,8 @@ height:800px;
 }
 
 .head{
-	margin-top:20px
+	margin-top:20px;
+	line-height: 1.2;
 }
 
 .head1{
@@ -88,6 +89,7 @@ margin-bottom:20px;
 
 .head3{
 font-size:34px;
+font-weight: bold;
 }
 
 .head4{
@@ -209,16 +211,18 @@ margin-bottom:20px;
 
 .a3{
 font-size:42px;
+font-weight: bold;
 }
 
 .a4{
-width:100px;
+width:120px;
 padding:10px 20px;
 margin-top:20px;
 margin-right:20px;
 background-color:blue;
 border-radius:10px;
 color:black;
+text-align: center;
 }
 
 .article3{
@@ -288,16 +292,17 @@ margin:20px 0px 0px 20px;
 }
 
 .b5{
-width:130px;
+width:140px;
 padding:10px 20px;
 margin:20px 0px 0px 20px;
 background-color:blue;
 border-radius:10px;
 color:black;
+text-align: center;
 }
 
 .b6{
-width:130px;
+width:140px;
 padding:10px 20px;
 margin:20px 0px 0px 20px;
 background-color:gray;
@@ -415,10 +420,13 @@ border-radius: 20px;
 
 .article5 .c7 .c6 h1{
 	margin-top: 10px;
+	font-size: 16px;
 }
 
 .article5 .c7 .c6 p{
 	margin-top: 10px;
+	font-size: 14px;
+	color: gray;
 }
 
 .c11{
@@ -445,9 +453,10 @@ font-size: 20px;
 .c10{
 	padding: 10px 10px;
 	background-color: gray;
-	width: 140px;
+	width: 160px;
 	border-radius: 10px;
 	margin: 80px 00px 0px 20px;
+	text-align: center;
 }
 
 .c12{
@@ -511,7 +520,7 @@ border-radius: 20px;
 
 .article6 .d1 ul{
 	float: left;
-	margin: 40px 0px 0px 100px;
+	margin: 40px 0px 0px 80px;
 }
 
 .article6 .d1 ul .d2{
