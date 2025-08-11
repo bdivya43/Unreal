@@ -11,7 +11,7 @@ border-radius:10px;
 
 .main{
 background-color:black;
-height:5800px;
+height:6210px;
 width: 100%;
 margin:auto;
 }
@@ -193,7 +193,7 @@ text-align:center;
 
 .article2{
 //background-color:blue;
-height:700px;
+height:600px;
 }
 
 .a1{
@@ -233,6 +233,7 @@ height:1000px;
 .h1{
 font-size:42px;
 margin-left:100px;
+margin-top: 100px;
 }
 
 .h2{
@@ -562,4 +563,55 @@ border-radius: 20px;
 .article6 .d3 li{
 	margin: 40px 0px 0px 40px;
 	float: left;
+}
+
+.carousel-wrapper {
+  position: relative;
+  width: 97%;
+  height: 50vh;
+  margin: auto;
+  overflow: hidden;
+  background: black;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  scroll-behavior: smooth;
+  padding: 20px 10px;
+  scrollbar-width: none;
+}
+
+.scroll-container img {
+  width: 500px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(255, 255, 255, 0.5);
+  color: black;
+  font-size: 30px;
+  padding: 30px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.left-arrow {
+  left: -30px;
+}
+
+.right-arrow {
+  right: -30px;
 }
